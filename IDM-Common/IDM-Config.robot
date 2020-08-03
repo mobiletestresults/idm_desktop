@@ -21,6 +21,7 @@ ${ProjectFolderName}                                              IDM_Demo_Smoke
 ${BuildNumber}                                              1
 
 ${XmlFile}                          D:\\JenkinsProjectsConfig\\config.xml
+${ScreenshotFolder}                 D:/JenkinsScreenshots
 ${envirement}                       envb
 ${project}                          idm
 
@@ -40,7 +41,7 @@ Config_Create Screenshots Folder
 
 Config_Finalize the Executed Result
     ${myDate} =     Get Current Date    result_format=%Y%m%d%H%M%S
-    Wait Until Keyword Succeeds     1 min   1 sec   move files      ${EXECDIR}/*.png      D:/JenkinsScreenshots/${ProjectFolderName}/screenshots/BuildNO-${BuildNumber}-${myDate}-${browser}
+    Wait Until Keyword Succeeds     1 min   1 sec   move files      ${EXECDIR}/*.png      ${ScreenshotFolder}/${ProjectFolderName}/screenshots/BuildNO-${BuildNumber}-${myDate}-${browser}
     Wait Until Keyword Succeeds     1 min   1 sec   Close All Browsers
 
 Config_get XML element value
