@@ -24,7 +24,6 @@ ${XmlFile}                          /Users/fxdmspmotestteam/Documents/config/con
 ${envirement}                       envb
 ${project}                          idm
 
-
 *** Keywords ***
 Config_Close all browsers
     Wait Until Keyword Succeeds     1 min   1 sec   close all browsers
