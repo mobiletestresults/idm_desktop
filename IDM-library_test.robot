@@ -15,6 +15,7 @@ Resource          IDM-Pages/IDM-UserManage.robot
 Resource          IDM-Pages/IDM-LoginPage.robot
 Resource          IDM-Pages/IDM-EmailActv.robot
 Resource          IDM-Pages/IDM-Dashboard.robot
+Library           ReusableModule
 Library           Selenium2Library
 Library			  Collections
 Library           String
