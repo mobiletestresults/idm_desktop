@@ -20,7 +20,7 @@ ${remoteUrl}                                                http://10.101.65.75:
 ${ProjectFolderName}                                              IDM_Demo_Smoke_Win8_Chrome
 ${BuildNumber}                                              1
 
-${XmlFile}                          /Users/fxdmspmotestteam/Documents/config/config.xml
+${XmlFile}                          /Users/fftestauto/Documents/config/config.xml
 ${envirement}                       envb
 ${project}                          idm
 
